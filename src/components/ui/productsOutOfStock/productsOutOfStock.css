@@ -1,0 +1,54 @@
+.ProductsOutOfStock{
+  background-color: #EFF1F8;
+  height : 200px;
+  width: 50px;
+  border-radius: 15px;
+  width: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 120px;
+}
+
+.ProductsOutOfStock-icon {
+  position: relative;
+}
+
+.ProductsOutOfStock-icon .abs svg{
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.ProductsOutOfStock-icon .abs svg{
+  font-size: 3em;
+  color : #9FA0A5;
+}
+
+.ProductsOutOfStock-text .abs{
+  margin-left: 30px;
+}
+
+.ProductsOutOfStock-text .abs p{
+
+}
+
+.ProductsOutOfStock-text-text{
+  font-size: 1.1em;
+  color : #9FA0A5;
+}
+
+
+.ProductsOutOfStock-text-value{
+  font-size: 2.5em;
+  color : #9FA0A5;
+}
+
+.ProductsOutOfStock-text .good{
+  color: #A1DE41;
+}
+
+.ProductsOutOfStock-text .bad{
+  color: #EC161E;
+}

@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AdminLogin from './adminLogin'
+import MainPanel from './mainPanel'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
-    <AdminLogin/>
+  <Router>
+      <Switch>
+        <Route exact path="/" component={AdminLogin}/>
+        <Route exact path="/panel" component={MainPanel}/>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

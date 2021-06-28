@@ -7,7 +7,7 @@
   width: 12px;
   border-radius :3px;
   background-color: white;
-  border: 2px solid rgb(198, 75, 137);
+  border: 2px solid rgb(238, 54, 85);
   transition : 0.2s ease;
 }
 
@@ -40,5 +40,5 @@
 }
 
 .container input:checked ~ .checkmark {
-  background-color: rgb(198, 75, 137);
+  background-color: rgb(238, 54, 85);
 }

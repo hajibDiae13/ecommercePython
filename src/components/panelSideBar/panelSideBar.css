@@ -1,0 +1,13 @@
+.PanelSideBar{
+  margin : 25px;
+  background: linear-gradient(-180deg, rgba(238,53,85,1) 0%, rgba(240,85,63,1) 100%);
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(239, 69, 74,0.4);
+}
+
+.PanelSideBar .FormTitle{
+  color : white!important;
+  margin-top : 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+}

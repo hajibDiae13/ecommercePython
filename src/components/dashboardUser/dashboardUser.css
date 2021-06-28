@@ -1,0 +1,63 @@
+.DashboardUser
+{
+  display : grid;
+  grid-template-columns: 50px auto 50px;
+  height : 50px;
+  margin : 30px;
+  margin-bottom : 50px;
+}
+
+.DashboardUser-image
+{
+  background-color: white;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.DashboardUser-image img
+{
+  width: 50px;
+}
+
+.DashboardUser-userInfo
+{
+  padding : 5px;
+  padding-left : 15px;
+  padding-top : 9px;
+}
+
+.DashboardUser-logout
+{
+  position: relative;
+}
+
+.DashboardUser-logout button
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: none;
+  outline: none;
+  width: 25px;
+  height : 25px;
+  font-size: 0.7em;
+  color : #F0553F;
+  background-color: #9E2338;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+p{
+  margin : 0;
+}
+
+.DashboardUser-userInfo-role{
+  font-size: 0.8em;
+  color: #9E2338;
+}
+
+.DashboardUser-userInfo-name{
+  color : white;
+  font-weight: bold;
+}

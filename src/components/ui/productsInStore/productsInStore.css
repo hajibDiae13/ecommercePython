@@ -1,0 +1,46 @@
+.ProductsInStore{
+  background-color: #E02989;
+  height : 200px;
+  width: 50px;
+  border-radius: 15px;
+  width: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 120px;
+}
+
+.ProductsInStore-icon {
+  position: relative;
+}
+
+.ProductsInStore-icon .abs svg{
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.ProductsInStore-icon .abs svg{
+  font-size: 3em;
+  color : white;
+}
+
+.ProductsInStore-text .abs{
+  margin-left: 30px;
+}
+
+.ProductsInStore-text .abs p{
+
+}
+
+.ProductsInStore-text-text{
+  font-size: 1.1em;
+  color : white;
+}
+
+
+.ProductsInStore-text-value{
+  font-size: 2.5em;
+  color : white;
+}

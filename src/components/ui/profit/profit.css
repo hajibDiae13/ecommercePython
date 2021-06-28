@@ -1,0 +1,37 @@
+.Profit{
+  background-color: #EFF1F8;
+  height : 200px;
+  width: 50px;
+  border-radius: 15px;
+  width: auto;
+  position: relative;
+}
+
+.abs{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+
+}
+
+.Profit-value
+{
+  font-size: 2em;
+  font-weight: bold;
+  color : #A1DE41;
+}
+
+.Profit-head , .Profit-compare{
+  font-size: 0.8em;
+  color : #9FA0A5;
+}
+
+.prc-positive{
+  color : #A1DE41;
+}
+
+.prc-negative{
+  color:#EC161E;
+}
