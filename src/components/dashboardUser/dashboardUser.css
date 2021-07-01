@@ -11,6 +11,8 @@
 {
   background-color: white;
   border-radius: 100px;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -42,8 +44,8 @@
   width: 25px;
   height : 25px;
   font-size: 0.7em;
-  color : #F0553F;
-  background-color: #9E2338;
+  color : #0C6AB0;
+  background-color: #042C71;
   cursor: pointer;
   border-radius: 3px;
 }
@@ -54,7 +56,7 @@ p{
 
 .DashboardUser-userInfo-role{
   font-size: 0.8em;
-  color: #9E2338;
+  color: #042C71;
 }
 
 .DashboardUser-userInfo-name{

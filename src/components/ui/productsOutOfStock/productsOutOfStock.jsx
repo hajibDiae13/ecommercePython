@@ -6,7 +6,7 @@ function ProductsOutOfStock(props) {
 
 
   function checkContent() {
-    if(props.content==0)
+    if(props.content===0)
     {
       return (<p class="ProductsOutOfStock-text-value good"><FontAwesomeIcon icon={faCheckSquare}/>{" "+props.content }</p>)
     }

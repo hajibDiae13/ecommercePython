@@ -1,12 +1,18 @@
 .ProductsOutOfStock{
   background-color: #EFF1F8;
-  height : 200px;
+  height : 150px;
   width: 50px;
   border-radius: 15px;
   width: auto;
   position: relative;
   display: grid;
   grid-template-columns: auto 120px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(226, 227, 234,0.4);
+  transition: 0.2s ease;
+}
+
+.ProductsOutOfStock:hover{
+  transform : scale(1.05);
 }
 
 .ProductsOutOfStock-icon {

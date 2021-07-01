@@ -1,0 +1,53 @@
+.TableElement
+{
+  display: grid;
+  grid-template-columns: 55px auto 55px;
+  position: relative;
+  height : 35px;
+  color: #042C71;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgba(159,160,165,0.5);
+
+}
+
+.TableElement-price{
+  position: absolute;
+  bottom: 6px;
+  right : 10px;
+  font-size: 0.9em;
+  color : #042C71;
+}
+
+.TableElement-name{
+  position: absolute;
+  top: 50%;
+  left : 64px;
+  transform: translate(0,-50%);
+  font-size: 1.1em;
+}
+
+.TableElement-image{
+  position: absolute;
+  top: 22px;
+  left : 4px;
+  background-color: #CD4811;
+  height:35px;
+  width: 35px;
+  border-radius: 12px;
+  transform: translate(0,-50%);
+  background-size : cover;
+  background-position: center;
+}
+
+.TableElement-green
+{
+  font-size: 0.9em;
+  color :#A1DE41!important;
+}
+
+.TableElement-small
+{
+  font-size: 0.7em;
+  color : #9FA0A5;
+}

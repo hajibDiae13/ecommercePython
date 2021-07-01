@@ -34,17 +34,17 @@
 
 
 .PanelSectionButton:hover{
-  background-color: white;
-  color: #EF454A;
+  background-color: #5D9BCA;
 }
 
 #selected{
   background-color: white;
-  color: #EF454A;
+  color: #0C6AB0;
 }
 
 
 #selected .rel .arrow{
   background-color: white;
   color: white;
+  transition: 0.2s ease;
 }

@@ -6,7 +6,7 @@ function Input(props) {
   return (
     <div class="Input">
       <FontAwesomeIcon icon={props.icon} />
-      <input id={props.id} type={props.type} placeholder={props.placeholder} />
+      <input id={props.id} type={props.type} placeholder={props.placeholder} onChange={props.onChange}/>
     </div>
   )
 }

@@ -1,13 +1,20 @@
 .ProductsInStore{
-  background-color: #E02989;
-  height : 200px;
+  background-color: #F36B1D;
+  height : 150px;
   width: 50px;
   border-radius: 15px;
   width: auto;
   position: relative;
   display: grid;
   grid-template-columns: auto 120px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(243, 107, 29,0.4);
+  transition: 0.2s ease;
 }
+
+.ProductsInStore:hover{
+  transform : scale(1.05);
+}
+
 
 .ProductsInStore-icon {
   position: relative;

@@ -1,10 +1,12 @@
 import React from 'react'
 import './panelSectionButton.css'
-import { faArrowRight, faCalendarCheck} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function panelSectionButton(props) {
+
+
   return (
-    <div class="PanelSectionButton" id={props.id}>
+    <div class="PanelSectionButton" id={props.id} >
       <div class="PanelSectionButton-icon rel">
         <div class="center">
           <FontAwesomeIcon icon={props.icon} />

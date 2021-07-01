@@ -1,0 +1,30 @@
+.Select{
+  background-color: #E6E6E6;
+  color : #C2C2C2;
+  padding : 15px 10px 15px 10px;
+  display: grid;
+  grid-template-columns: 20px auto;
+  margin : 20px 40px 20px 40px;
+  transition: 0.2s ease;
+}
+
+.Select select{
+  font-family: 'Montserrat', sans-serif;
+  border : none;
+  outline: none;
+  background-color: #E6E6E6;
+  font-weight: bold;
+}
+
+.Select:hover ::placeholder, .Select:hover, .Select:focus-within > svg{
+  color : #818181;
+}
+
+select{
+  color : #818181;
+}
+
+::placeholder{
+  color : #C2C2C2;
+  transition: 0.2s ease;
+}
