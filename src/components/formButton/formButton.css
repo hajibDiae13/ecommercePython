@@ -1,0 +1,19 @@
+.FormButton{
+  padding : 15px 10px 15px 10px;
+  margin : 20px 40px 100px 40px;
+  transition: 0.2s ease;
+  border : none;
+  outline:none;
+  border-radius: 0;
+  background-color: rgb(238, 54, 85);
+  width : 270px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color : white;
+}
+
+.FormButton:hover
+{
+  background-color: rgb(240, 85, 64);
+  cursor: pointer;
+}

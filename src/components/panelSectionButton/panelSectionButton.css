@@ -1,0 +1,50 @@
+.PanelSectionButton{
+  display : grid;
+  grid-template-columns: 50px auto 50px;
+  height : 50px;
+  margin : 30px;
+  margin-left: 0;
+  padding-left: 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 100px 100px 0;
+  transition: 0.2s ease;
+  margin-bottom: 35px;
+}
+
+.PanelSectionButton .rel{
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.right{
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(0,-50%);
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+
+.PanelSectionButton:hover{
+  background-color: #5D9BCA;
+}
+
+#selected{
+  background-color: white;
+  color: #0C6AB0;
+}
+
+
+#selected .rel .arrow{
+  background-color: white;
+  color: white;
+  transition: 0.2s ease;
+}

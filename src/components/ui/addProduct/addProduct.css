@@ -1,0 +1,57 @@
+.AddProduct{
+  background-color: #EFF1F8;
+  width: 50px;
+  border-radius: 15px;
+  width: auto;
+  position: relative;
+  box-shadow: 0 0.5rem 1rem 0 rgba(226, 227, 234,0.4);
+  transition: 0.2s ease;
+  padding : 25px;
+}
+
+.AddProduct-firstRow{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+
+.AddProduct .FormTitle{
+  margin : 0;
+  font-size: 1em;
+  color : #042C71;
+  margin-bottom: 20px;
+}
+
+.AddProduct .Input{
+  margin : 5px;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-color: #C7C8CE;
+  color:#848589;
+}
+
+.AddProduct .Input input{
+  background-color: #C7C8CE;
+  color:#848589;
+  padding-left: 5px;
+  width : 70%;
+}
+
+.AddProduct ::placeholder
+{
+  color:#848589;
+}
+
+.AddProduct .FormButton .Input:hover ::placeholder,.AddProduct .FormButton .Input:hover,.AddProduct .FormButton .Input:focus-within > svg{
+  color : #58585B;
+}
+
+.AddProduct .FormButton{
+  border-radius: 10px;
+  background-color: #042C71;
+  margin-bottom: 0;
+}
+
+.AddProduct .FormButton:hover{
+  background-color: #084387;
+}

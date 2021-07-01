@@ -1,0 +1,70 @@
+.AddLabel{
+  background-color: #EFF1F8;
+  width: 50px;
+  border-radius: 15px;
+  width: auto;
+  position: relative;
+  box-shadow: 0 0.5rem 1rem 0 rgba(226, 227, 234,0.4);
+  transition: 0.2s ease;
+  padding : 25px;
+}
+
+.AddLabel-firstRow{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+
+.AddLabel .FormTitle{
+  margin : 0;
+  font-size: 1em;
+  color : #042C71;
+  margin-bottom: 20px;
+}
+
+.AddLabel .Input{
+  margin : 5px;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-color: #C7C8CE;
+  color:#848589;
+}
+
+.AddLabel .Input input{
+  background-color: #C7C8CE;
+  color:#848589;
+  padding-left: 5px;
+  width : 70%;
+}
+
+.AddLabel ::placeholder
+{
+  color:#848589;
+}
+
+.AddLabel .FormButton .Input:hover ::placeholder,.AddLabel .FormButton .Input:hover,.AddLabel .FormButton .Input:focus-within > svg{
+  color : #58585B;
+}
+
+.AddLabel .FormButton{
+  border-radius: 10px;
+  background-color: #042C71;
+  margin-bottom: 0;
+}
+
+.AddLabel .FormButton:hover{
+  background-color: #084387;
+}
+
+.AddLabel-labelPreview
+{
+  background-color: black;
+  width : 150px;
+  color : white;
+  padding :5px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top :45px;
+  margin-bottom : 25px;
+  font-size: 0.8em;
+}
